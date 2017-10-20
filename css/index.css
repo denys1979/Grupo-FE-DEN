@@ -1,0 +1,148 @@
+header{
+  height: 200px;
+  background-image: url(../images/8.png);
+  background-size: 100% 200px;
+  background-repeat: no-repeat;
+  display:-webkit-flex;
+  display:-ms-flexbox;
+  display: flex;
+  flex-direction: row;
+}
+h1{
+  font-family: arial;
+      font-style: italic;
+      color: rgb(38, 108, 158);
+      font-weight: bold;
+      font-size: 80px;
+}
+#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+
+			ul, ol {
+				list-style:none;
+			}
+
+			.nav > li {
+				float:left;
+			}
+
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+
+			.nav li a:hover {
+				background-color:#434343;
+			}
+      .nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+
+			.nav li:hover > ul {
+				display:block;
+			}
+
+			.nav li ul li {
+				position:relative;
+			}
+
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+body{
+  background-color: rgb(199, 199, 189);
+}
+
+.tecnologia {
+display: flex;
+justify-content: center;
+}
+
+.posicion{
+margin-left: 200px;
+display: flex;
+justify-content: space-around;
+}
+
+.contenido{
+  display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.recuadro{
+  display: flex;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+}
+.recuadro2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+margin: auto;
+}
+.parrafo{
+      align-items: flex-end;
+      justify-content: center;
+      align-content: stretch;
+      margin: 70px;
+      width: 300px;
+      margin-bottom: -82px;
+      margin-left: 9px
+}
+
+.recuadro2-5{
+display: flex;
+width: -webkit-fill-available;
+}
+.cerrar{
+  font-size: 30px;
+position: absolute;
+top: 5px;
+right: 5px;
+}
+
+.descripcion{
+  display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      align-content: stretch;
+      /*margin: 70px;
+      width: 300px;
+      margin-bottom: -82px;
+      margin-left: 9px*/
+}
+h2,p{
+  margin:10px;
+
+}
+
+.botonera{
+  display: flex;
+    flex-direction: column;
+}
+button{
+height: 55px;
+border-radius: 50px;
+font-family: 'Helvetica', sans-serif;
+text-transform: uppercase;
+padding: 10px;
+background-color: white;
+border: 2px solid #2e518b;
+color: #c32424;
+margin: auto;
+font-size: 17px;
+}
